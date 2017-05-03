@@ -1,0 +1,32 @@
+{
+  "name": "gulp_backup",
+  "version": "1.0.0",
+  "description": "Simple Backup Script who zip's given Files and moves them to given Directory",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-zip": "^4.0.0",
+    "rename": "^1.0.4",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jody90/GulpBackup.git"
+  },
+  "keywords": [
+    "gulp",
+    "backup"
+  ],
+  "author": "jody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jody90/GulpBackup/issues"
+  },
+  "homepage": "https://github.com/jody90/GulpBackup#readme"
+}
